@@ -1,0 +1,10 @@
+goralsoft\com\dbmigration\mongo\domain\Papers.class
+goralsoft\com\dbmigration\mssql\repo\PapersRepository.class
+goralsoft\com\dbmigration\NOSQLDBConfig.class
+goralsoft\com\dbmigration\mssql\domain\Papers.class
+goralsoft\com\dbmigration\SQLDBConfig.class
+goralsoft\com\dbmigration\mongo\repo\MPapersRepository.class
+goralsoft\com\dbmigration\Customer.class
+META-INF\spring-configuration-metadata.json
+goralsoft\com\dbmigration\DBController.class
+goralsoft\com\dbmigration\NoToSqlApplication.class

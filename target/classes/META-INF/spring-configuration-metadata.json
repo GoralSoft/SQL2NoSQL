@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.goralsoft.dbmigration.NOSQLDBConfig",
+      "name": "spring.datasource",
+      "type": "com.goralsoft.dbmigration.NOSQLDBConfig"
+    }
+  ],
+  "properties": []
+}
