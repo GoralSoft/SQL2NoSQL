@@ -71,29 +71,8 @@ public class SQL2NOSQLApplication implements CommandLineRunner {
 		
 		System.out.println("----------------------------------MONGO Papers---------------------------------");
 		List<com.goralsoft.dbmigration.mongo.domain.Papers> mongopapers=mongo_paperRepo.findAll();
-		System.out.println(mongopapers);
-		/*
-		List<Document> docs=ConvertDoc(p);
+		System.out.println(mongopapers);		
 		
-		System.out.println("----------------------------------MONGO Papers---------------------------------");
-		List<goralsoft.com.dbmigration.mongo.domain.Papers> mpapers=mongo_paperRepo.findAll();
-		System.out.println(mpapers);
-		
-		
-		System.out.println("JSON parse example...");
-		MongoClient mongo = new MongoClient("localhost", 27017);
-		MongoDatabase db = mongo.getDatabase("cms");
-			
-		//MongoCollection<Document> collection = db.getCollection("papers_new");			
-		//collection.insertMany(docs);
-				
-        List<Map<String,Object>> obj=jdbcTemplate.queryForList("select papercode,papername from papers");
-        List<Document> lstDoc=ConvertListDoc(obj);
-        MongoCollection<Document> papercollection = db.getCollection("papersnew");
-        papercollection.insertMany(lstDoc);
-        
-        System.out.println(getJsonSchema(Papers.class));
-		*/		
 	}
 	
 	private static String getJsonSchema(Class clazz) throws IOException {
