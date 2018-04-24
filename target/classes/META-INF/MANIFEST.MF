@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: NoToSQL
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: vasu
+Implementation-Vendor-Id: goralsoft.com.dbmigration
+Build-Jdk: 1.8.0_74
+Implementation-URL: http://projects.spring.io/spring-boot/SQL_TO_NOSQL
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
