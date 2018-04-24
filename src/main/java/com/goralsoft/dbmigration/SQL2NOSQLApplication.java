@@ -56,14 +56,7 @@ public class SQL2NOSQLApplication implements CommandLineRunner {
 	 
 	@Override
 	public void run(String... arg0) throws Exception {
-		System.out.println("----------------------------------MSSQL Papers---------------------------------");
-		/*
-		for(Papers p:paperRepo.findAll())
-		{
-			System.out.println(p);
-			
-		}*/
-		
+		System.out.println("----------------------------------MSSQL Papers---------------------------------");				
 		List<Papers> mssqlpapers=paperRepo.findAll();
 		System.out.println(mssqlpapers);
 		
